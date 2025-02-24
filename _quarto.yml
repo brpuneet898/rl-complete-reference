@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  reader-mode: true
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Index"
+        href: index.qmd
+      - section: "The Reinforcement Learning Problem"
+        contents:
+          - text: "Reinforcement Learning"
+            href: 1_1.qmd
+
+theme:
+  light: litera
+  dark: cyborg
